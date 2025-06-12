@@ -194,6 +194,7 @@ nav:
     - Drafting emails with LangGraph: https://github.com/joaomdmoura/crewAI-examples/tree/main/CrewAI-LangGraph"
     - Landing Page Generator: https://github.com/joaomdmoura/crewAI-examples/tree/main/landing_page_generator"
     - Prepare for meetings: https://github.com/joaomdmoura/crewAI-examples/tree/main/prep-for-a-meeting"
+    - Local Chat Demo: 'guides/crews/chat-demo.mdx'
   - Telemetry: 'telemetry/Telemetry.md'
   - Change Log: 'https://github.com/crewAIInc/crewAI/releases'
 
