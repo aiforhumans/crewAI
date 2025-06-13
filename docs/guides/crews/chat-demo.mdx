@@ -6,12 +6,22 @@ icon: message-text
 
 This short example shows how to run CrewAI completely offline by connecting to LM Studio's OpenAI-compatible API. You'll run a local model and chat with it directly from the `chat_demo.py` script.
 
-## 1. Start LM Studio
+## 1. Install CrewAI
+
+If you haven't already, create a virtual environment and install the
+dependencies:
+
+```bash
+uv venv
+uv pip install -e .
+```
+
+## 2. Start LM Studio
 
 1. Install LM Studio and download a model.
 2. Launch its API server. It usually listens on `http://localhost:1234/v1`.
 
-## 2. Set the environment variables
+## 3. Set the environment variables
 
 ```bash
 export OPENAI_API_KEY=lmstudio            # any placeholder value
@@ -19,7 +29,7 @@ export OPENAI_API_BASE=http://localhost:1234/v1
 export OPENAI_MODEL_NAME=openai/your-model
 ```
 
-## 3. Run the chat demo
+## 4. Run the chat demo
 
 ```bash
 python examples/chat_demo.py
